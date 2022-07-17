@@ -17,5 +17,19 @@ public class Main {
         float diffBoxersWeight = boxer2 - boxer1;
         System.out.println("Разница в весе боксеров " + diffBoxersWeight);
 
+        // ex3
+        var banana = 80;
+        int bananas = banana * 5;
+        var milk = 105;
+        int allMilk = milk * 2;
+        var iceCream = 100;
+        int allIceCream = iceCream * 2;
+        var egg = 70;
+        int eggs = egg * 4;
+        int allProducts = bananas + allMilk + allIceCream + eggs;
+        System.out.println("Вес продуктов " + allProducts + " грамм");
+        float breakfast = allProducts / 1000f;
+        System.out.println("Вес продуктов " + breakfast + " кг");
+
     }
 }
