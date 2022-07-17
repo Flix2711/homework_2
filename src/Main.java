@@ -31,5 +31,19 @@ public class Main {
         float breakfast = allProducts / 1000f;
         System.out.println("Вес продуктов " + breakfast + " кг");
 
+        //ex4
+        int allWeight = 7;
+        int allWeightInKg = allWeight * 1000;
+        int smallEverydayWeight = 250;
+        int smallEverydayLoose = allWeightInKg / smallEverydayWeight;
+        System.out.println("Понадобится " + smallEverydayLoose + " дней при потере в 250 грамм");
+        int bigEverydayWeight = 500;
+        int bigEverydayLoose = allWeightInKg / bigEverydayWeight;
+        System.out.println("Понадобится " + bigEverydayLoose + " дней при потере в 500 грамм");
+        int allDays = (smallEverydayLoose + bigEverydayLoose) / 2;
+        System.out.println("В среднем получится " + allDays + " день");
+
+
+
     }
 }
