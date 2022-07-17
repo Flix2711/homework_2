@@ -43,6 +43,21 @@ public class Main {
         int allDays = (smallEverydayLoose + bigEverydayLoose) / 2;
         System.out.println("В среднем получится " + allDays + " день");
 
+        //ex5
+        int mashaSalary = 67760;
+        int mashaNewSalary = mashaSalary * 110 / 100;
+        int mashaDifference = (mashaNewSalary - mashaSalary) * 12;
+        int denisSalary = 83690;
+        int denisNewSalary = denisSalary * 110 / 100;
+        int denisDifference = (denisNewSalary - denisSalary) * 12;
+        int krisSalary = 76230;
+        int krisNewSalary = krisSalary * 110 / 100;
+        int krisDifference = (krisNewSalary - krisSalary) * 12;
+        System.out.println("Маша теперь получает " + mashaNewSalary + " рублей. Годовой доход вырос на "  + mashaDifference + " рублей.");
+        System.out.println("Денис теперь получает " + denisNewSalary+ " рублей. Годовой доход вырос на "  + denisDifference + " рублей.");
+        System.out.println("Кристина теперь получает " + krisNewSalary + " рублей. Годовой доход вырос на "  + krisDifference + " рублей.");
+
+
 
 
     }
